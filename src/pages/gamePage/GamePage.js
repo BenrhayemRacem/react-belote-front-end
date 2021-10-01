@@ -1,3 +1,5 @@
+import {Player} from "../../components/player/Player";
+import {GameTable} from "../../components/gameTable/GameTable";
 
 
 export const GamePage = ()=> {
@@ -5,7 +7,13 @@ export const GamePage = ()=> {
 
     return (
         <>
-        <h1>Game Page</h1>
+            <Player/>
+            <Player/>
+            <Player/>
+            <Player/>
+            <GameTable/>
+
+
 
         </>
     )
